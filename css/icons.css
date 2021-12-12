@@ -1,0 +1,149 @@
+i
+{
+    font-family: 'icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i::before
+{
+    display: inline-block;
+}
+
+.icon-arrow-left:before
+{
+    content: '\e901';
+}
+
+.icon-arrow-right
+{
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.icon-arrow-right:before
+{
+    content: '\e901';
+}
+
+.icon-arrow-bottom:before
+{
+    content: '\e901';
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+}
+
+.icon-arrow-top:before
+{
+    content: '\e901';
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.icon-plus:before
+{
+    content: '\e913';
+
+    color: #69bd45;
+}
+
+.icon-account:before
+{
+    content: '\e900';
+}
+
+.icon-cart:before
+{
+    content: '\e903';
+}
+
+.icon-email:before
+{
+    content: '\e904';
+}
+
+.icon-fb:before
+{
+    content: '\e905';
+}
+
+.icon-geo:before
+{
+    content: '\e906';
+}
+
+.icon-inst:before
+{
+    content: '\e907';
+}
+
+.icon-like:before
+{
+    content: '\e908';
+}
+
+.icon-like-active:before
+{
+    content: '\e909';
+
+    color: #ed1c24;
+}
+
+.icon-messenger:before
+{
+    content: '\e90a';
+}
+
+.icon-phone:before
+{
+    content: '\e90b';
+}
+
+.icon-required:before
+{
+    content: '\e90c';
+}
+
+.icon-search:before
+{
+    content: '\e90d';
+}
+
+.icon-star:before
+{
+    content: '\e90e';
+}
+
+.icon-success:before
+{
+    content: '\e90f';
+}
+
+.icon-twitter:before
+{
+    content: '\e910';
+}
+
+.icon-vk:before
+{
+    content: '\e911';
+}
+
+.icon-warning:before
+{
+    content: '\e912';
+}
+@supports (-webkit-appearance:none)
+{
+}
